@@ -21,7 +21,7 @@ All other assets and code were made by me.
 Interesting stuff
 -----------------
 
-The most interesting part of the code is probably the splatter effect. What\'s cool about them is that they are animated and stick to the dynamic surfaces (see gif below for an example):
+The most interesting part of the code is probably the splatter effect. What\'s cool about it is that the splats are animated and stick to the dynamic surfaces (see gif below for an example):
 ![](/Screenshots/gif1.gif)
 
 The animation itself is done using the following simple particle system:
