@@ -21,14 +21,22 @@ All other assets and code were made by me.
 Interesting stuff
 -----------------
 
-The most interesting part of the code is probably the splatter effect. What\'s cool about it is that the splats are animated and stick to the dynamic surfaces (see gif below for an example):
-![](/Screenshots/gif1.gif)
+The most interesting part of the code is probably the splatter effect. What\'s cool about it is that the splats are animated and stick to the dynamic surfaces:
+
+<img src="/Screenshots/gif1.gif" alt="" width="400">
+
 
 The animation itself is done using the following simple particle system:
-![](/Screenshots/gif2.gif)
+
+<img src="/Screenshots/gif2.gif" alt="" width="400">
+
+
 If you render this system without clearing the render buffer, you get this nice persistent splatter effect:
-![](/Screenshots/gif3.gif)
-Relying on not clearing the render target unfortunatelly has its problems (eg. the effect is heavily dependent on the framerate), but this method will be extremely handy once we'll try to deal with the dynamic environment.
+
+<img src="/Screenshots/gif3.gif" alt="" width="400">
+
+
+Relying on not clearing the render target unfortunatelly has its problems (eg. the effect is heavily dependent on the framerate), but this method is extremely handy when dealing with the dynamic environment.
 
 To render the splatter in the static scene, we can just place particle effect on separate layer, have an additional camera rendering this layer to the separate render texture with `clearFlags` set to `Nothing`, then use the render texture as a texture for the objects in the scene (also, `SpriteRenderer` doesn\'t support render textures in Unity, so we need to use a custom shader for this :^) ).
 For the dynamic scene, we can basically do the same thing, we just need to assign a seperate camera with a seperate render target for every dynamic object in the scene.
