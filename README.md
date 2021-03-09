@@ -2,13 +2,13 @@
 
 Steer your fragile spacecraft through dangerous environments with traps hidden at every step! Your every failure contributes to your future attempts.
 
-This game is my submission for the [Wowie Jam 3.0](https://itch.io/jam/wowie-jam-3 "Wowie Jam 3.0"). The jam\'s theme was **Failure is progress**.
+This game is my submission for the [Wowie Jam 3.0](https://itch.io/jam/wowie-jam-3 "Wowie Jam 3.0"). The jam\'s theme was **Failure is progress**. You can download the game from my [itch.io page](https://wonrzrzeczny.itch.io/splatship-seven "Splatship Seven").
 
 Screenshots
 -----------
 
-![](/Screenshots/ss1.png)
-![](/Screenshots/ss2.png)
+<img src="/Screenshots/ss1.png" alt="" width="600">
+<img src="/Screenshots/ss2.png" alt="" width="600">
 
 
 Credits
